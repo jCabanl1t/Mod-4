@@ -1,0 +1,60 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+/* Styling the h1 element */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling the table */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling table headings */
+th {
+    padding: 10px;
+    text-align: middle;
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Styling table data cells */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styling table rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Aligning specific table headers */
+th.left {
+    text-align: left;
+}
+
+th.middle {
+    text-align: middle;
+}
+
+th.right {
+    text-align: right;
+}
